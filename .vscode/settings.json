@@ -1,0 +1,14 @@
+{
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "yapf",
+  "python.pythonPath": "myvenv\\Scripts\\python.exe",
+  "python.analysis.extraPaths": [
+    "curso"
+  ],
+  "python.linting.flake8Args": [
+    "--per-file-ignores=\"init.py:F401\""
+  ],
+  "git.ignoreLimitWarning": true,
+}
